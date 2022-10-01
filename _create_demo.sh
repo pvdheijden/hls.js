@@ -11,6 +11,11 @@ pushd $PLAYER
 
 rm -rf dist && mkdir dist
 cp -r ../dist . 
+sed -i 's|../dist|dist|' index.html
+
+rm -rf tests && mkdir tests
+cp -r ../tests/test-streams.js ./tests/test-streams.js 
+sed -i 's|../tests|tests|' main.js
 
 popd
 

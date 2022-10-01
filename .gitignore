@@ -41,3 +41,6 @@ _ReSharper*/
 
 # VSCode custom workspace settings
 .vscode/settings.json
+
+hls-js-demo-player.tar
+hls-js-demo-player.tar.gz
