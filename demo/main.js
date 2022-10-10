@@ -15,7 +15,6 @@ const STORAGE_KEYS = {
   demo_tabs: 'hlsjs:demo-tabs',
 };
 
-const testStreams = require('../tests/test-streams');
 const defaultTestStreamUrl = testStreams[Object.keys(testStreams)[0]].url;
 const sourceURL = decodeURIComponent(getURLParam('src', defaultTestStreamUrl));
 
