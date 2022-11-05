@@ -3,6 +3,7 @@
 set -x
 set -e
 
+npm install
 npm run build
 
 PLAYER="demo"
